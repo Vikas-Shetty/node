@@ -10,7 +10,7 @@ var url = require('url');
 var server = http.createServer(function(req,res){
 
     //Get the URL and prase it
-    var parsedurl = url.parse(req.url,true);
+    var parsedUrl = url.parse(req.url,true);
 
     //get the path
     var path = parsedUrl.pathname;
